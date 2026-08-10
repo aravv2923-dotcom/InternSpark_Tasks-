@@ -5,7 +5,7 @@ This repository contains my completed tasks for the InternSpark Internship.
 ## Task 1
 
 # Description
-This folder contains the Jupyter Notebook and documentation for Task 1.
+This repository contains the Jupyter Notebook and documentation for Task 1.
 
 # Files
 - `Task_1.ipynb` - Jupyter Notebook containing the complete implementation
