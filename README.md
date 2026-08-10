@@ -4,14 +4,17 @@ This repository contains my completed tasks for the InternSpark Internship.
 
 ## Task 1
 
-# Description
+### Description
+
 This repository contains the Jupyter Notebook and documentation for Task 1.
 
-# Files
+### Files
+
 - `Task_1.ipynb` - Jupyter Notebook containing the complete implementation
 - `Task_1_Report.pdf` - Detailed task report and documentation
 
-# Environment
+### Environment
+
 - Python 3.x
 - Jupyter Notebook
 - NumPy
@@ -32,19 +35,3 @@ pip install numpy pandas scikit-learn matplotlib jupyter
 jupyter notebook Task_1.ipynb
 
 
-Then **Commit changes**.
-
-That's it. ✅
-
-You do **not** need to find a Run button anywhere on GitHub.
-
-Your GitHub repository is mainly for **storing and sharing** your notebook + PDF. The notebook itself can be opened and viewed directly on GitHub.
-
-So your final structure should be:
-
-```text
-InternSpark_Tasks-
-│
-├── README.md
-├── Task_1.ipynb
-└── Task_1_Report.pdf
