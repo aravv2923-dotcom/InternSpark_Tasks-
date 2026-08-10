@@ -25,3 +25,26 @@ Install the required packages using:
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib jupyter
+
+### Run the Notebook
+
+```bash
+jupyter notebook Task_1.ipynb
+
+
+Then **Commit changes**.
+
+That's it. ✅
+
+You do **not** need to find a Run button anywhere on GitHub.
+
+Your GitHub repository is mainly for **storing and sharing** your notebook + PDF. The notebook itself can be opened and viewed directly on GitHub.
+
+So your final structure should be:
+
+```text
+InternSpark_Tasks-
+│
+├── README.md
+├── Task_1.ipynb
+└── Task_1_Report.pdf
