@@ -57,3 +57,8 @@ Example:
 ```python
 predict_image("path/to/your/image.jpg")
 ```
+
+
+## Trained Model
+
+Download the trained weights here: [resnet18_cifar10.pth](https://drive.google.com/file/d/1ChgtKDI24C9TJ1Kzq99j1beeAUvaPij5/view?usp=sharing)
