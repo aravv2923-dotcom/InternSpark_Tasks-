@@ -55,7 +55,7 @@ The saved model can be used with the `predict_image()` function in the notebook.
 Example:
 
 ```python
-predict_image("path/to/your/image.jpg")
+predict_image("your_image.jpg")
 ```
 
 
