@@ -1,1 +1,130 @@
+# Task 4: Fairness & Explainability
 
+## Overview
+
+This task focuses on evaluating the **fairness, bias, and explainability** of a Logistic Regression model trained on the **Breast Cancer Wisconsin Dataset**.
+
+The goal is not only to measure model performance, but also to understand how the model makes predictions and identify possible sources of bias.
+
+## Objectives
+
+- Train a Logistic Regression classification model.
+- Evaluate the model's predictive performance.
+- Analyze feature importance.
+- Use SHAP to explain model predictions.
+- Perform global and local model explanations.
+- Discuss potential fairness and bias concerns.
+- Suggest possible bias mitigation strategies.
+
+## Dataset
+
+The **Breast Cancer Wisconsin (Diagnostic) Dataset** contains measurements computed from digitized images of breast tissue samples.
+
+The target variable represents whether a tumor is:
+
+- **Malignant**
+- **Benign**
+
+The dataset is commonly used for binary classification and machine learning evaluation.
+
+## Model Used
+
+### Logistic Regression
+
+Logistic Regression was selected as the classification model because it is:
+
+- Simple and interpretable.
+- Suitable for binary classification.
+- Efficient to train.
+- Useful for understanding feature relationships.
+
+## Explainability
+
+### Feature Importance
+
+The Logistic Regression coefficients were analyzed to understand which features have the strongest influence on predictions.
+
+### SHAP
+
+**SHAP (SHapley Additive exPlanations)** was used for both global and local explanations.
+
+#### Global Explanation
+
+Global SHAP analysis helps identify which features generally have the greatest influence on the model's predictions.
+
+#### Local Explanation
+
+Local SHAP analysis explains why the model produced a particular prediction for an individual sample.
+
+This helps make individual predictions easier to interpret.
+
+## Fairness and Bias Analysis
+
+Although the dataset does not provide a complete set of demographic attributes, fairness considerations were discussed.
+
+Potential sources of bias include:
+
+- Imbalanced or non-representative training data.
+- Differences between the training population and real-world populations.
+- Dataset collection bias.
+- Unequal model performance across demographic subgroups when such information is available.
+
+Fairness should therefore be evaluated using appropriate subgroup performance metrics whenever demographic information is available.
+
+## Bias Mitigation Recommendations
+
+Possible approaches for reducing bias include:
+
+1. **Representative Training Data**  
+   Use training data that adequately represents the population in which the model will be deployed.
+
+2. **Subgroup Evaluation**  
+   Compare accuracy, precision, recall, F1-score, and other relevant metrics across different subgroups.
+
+3. **Re-sampling or Re-weighting**  
+   Adjust the training process when certain groups are underrepresented.
+
+4. **Decision Threshold Adjustment**  
+   Evaluate whether modifying the classification threshold can improve fairness while maintaining acceptable predictive performance.
+
+5. **Continuous Monitoring**  
+   Monitor model performance and fairness after deployment to detect changes in data distribution or subgroup performance.
+
+## Results
+
+The Logistic Regression model achieved strong predictive performance on the test data.
+
+The model's performance was evaluated using metrics such as:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+Explainability analysis using feature coefficients and SHAP provided additional insight into how the model reaches its predictions.
+
+## Conclusion
+
+This task demonstrates that evaluating a machine learning model should involve more than predictive accuracy.
+
+The Logistic Regression model achieved strong performance, while SHAP and feature importance analysis provided interpretable explanations of its decisions. Fairness analysis and bias mitigation strategies were also considered to highlight the importance of responsible machine learning.
+
+## Files
+
+- `Task_4_Fairness_Explainability.ipynb` - Main Jupyter Notebook
+- `README.md` - Project documentation
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- SHAP
+
+## Author
+
+**Akshay Aravind**
