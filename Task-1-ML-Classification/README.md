@@ -1,17 +1,13 @@
-# InternSpark Internship Tasks
+# Task 1 - ML Classification
 
-This repository contains my completed tasks for the InternSpark Internship.
+## Description
 
-## Task 1
-
-### Description
-
-This folder contains the Jupyter Notebook and documentation for Task 1.
+This folder contains the Jupyter Notebook and documentation for Task 1: Breast Cancer Classification using Logistic Regression and Random Forest on the Wisconsin dataset.
 
 ### Files
 
-- `Task_1.ipynb` - Jupyter Notebook containing the complete implementation
-- `Task_1_Report.pdf` - Detailed task report and documentation
+- `Task_1_Report.ipynb` - Jupyter Notebook containing the complete implementation
+- `InternSpark_Task_Report.pdf` - Detailed task report and documentation
 
 ### Environment
 
@@ -26,5 +22,10 @@ This folder contains the Jupyter Notebook and documentation for Task 1.
 
 Install the required packages using:
 
-```bash
+\`\`\`bash
 pip install numpy pandas scikit-learn matplotlib jupyter
+\`\`\`
+
+## Author
+
+**Akshay Aravind Kumar**
